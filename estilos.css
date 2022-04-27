@@ -121,7 +121,7 @@ img{
 }
 /*section productos destacados*/
 .tituloprod{
-    background-color: #c3c3c3;
+    background-image: linear-gradient(to top black, rgb(17, 17, 130));
     border-style: double;
     text-align: center;
 }
