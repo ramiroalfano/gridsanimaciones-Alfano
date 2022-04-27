@@ -658,7 +658,8 @@ footer{
 
 /*inicio css pagina contacto*/
 .bannercontacto{
-    background-color: #fff;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
 }
 .formContainer{
     border: #fff;
@@ -707,10 +708,14 @@ footer{
     margin-top: 1.5rem;
     border-radius: 0.3rem;
     font-weight: 600;
+    transition: 2s ease-in;
+    z-index: 1;
     cursor: pointer;
 }
 .form__input--submit:hover{
-    background-color: #511515;
+    background:#ff96ad;
+    box-shadow: 0 0 5px, 0 0 25px
+    #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
 }
 
 /*fin pag contacto*/
@@ -723,8 +728,9 @@ h2{
     margin: 10px;
 }
 .bannernosotros{
-    background-color: #fff;
-}
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
+    }
 .nosotros h3{
     color: #b00c0c;
     font-weight: 800;
@@ -757,6 +763,10 @@ h2{
 }
 /*fin pag nosotros*/
 /*inicio css pag pfrecuentes*/
+.bannerpfrecuentes{
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
+}
 p{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -804,8 +814,9 @@ p{
 /*fin de pag pfrecuentes*/
 /*inicio css pag productos*/
 .bannerproductos{
-background-color: #fff;
-}
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
+    }
 .produc{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
